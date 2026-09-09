@@ -108,10 +108,10 @@ button{font:inherit; cursor:pointer}
 .form-card .lede{font-size:13.5px; margin-top:6px}
 
 /* stats grid */
-.stats-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:var(--sp-2); margin-top:var(--sp-3)}
-@media (max-width:760px){ .stats-grid{grid-template-columns:repeat(2,1fr)} }
+.stats-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:var(--sp-2); margin-top:var(--sp-3)}
+@media (max-width:760px){ .stats-grid{grid-template-columns:1fr} }
 .stat-box{border:1px solid var(--line); border-radius:var(--r-card); padding:var(--sp-3); text-align:center}
-.stat-box .num{font-family:"IBM Plex Mono",monospace; font-size:26px; font-weight:600}
+.stat-box .num{font-family:"IBM Plex Mono",monospace; font-size:20px; font-weight:600}
 .stat-box .cap{font-size:12.5px; color:var(--ink-soft); margin-top:6px}
 
 /* cards grid (directions / tech) */
